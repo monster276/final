@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color:#E5E5E5;
+    padding-top: 70px;
+}
+.container{
+    background-color: white;
+    margin: 0 auto;
+    height: 830px;
+    width: 1213px;
+        left: 193px;
+        top: 173px;
+        border-radius: 16px;
+        padding: 100px;
+
+}
+.container .headbar{
+    margin-left: 5px;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.container .searchbar{
+    display: flex;
+    padding-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    align-items: center;
+}
+.container .searchbar .user{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.container .option ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 17px;
+    font-size: 20px;
+}
+.container .option{
+    width: 500px;
+}
+.container .name{
+    background-color: #849FFF;
+    border-radius: 3px;
+   padding-left: 5px;
+   padding-right: 5px;
+   height: 30px;
+}
+.container .content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.container .content .item {
+    display: flex;
+    width: 320px;
+    height: 210px;
+    justify-content: space-around;
+    background-color: #FBFCFF;
+    padding-top: 20px;
+}
+.container .content .item .prdct .itemname{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container .content .item .prdct .favorite{
+    display: flex;
+    color: #516FD4;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.container .content .item .prdct .favorite p{
+    margin-right: 5px;
+    border: 1px solid #516FD4;
+    border-radius: 5px;
+    padding: 3px 3px;
+}
+.container .content .item .img img{
+    
+    border-radius: 50%;
+    object-fit: cover;
+    height: 120px;
+        width: 120px;
+}
+.container .content #pic2{
+    border: 1px solid #516FD4;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #DAE0F9B2 ;
+}
