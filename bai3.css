@@ -73,6 +73,7 @@ body{
     justify-content: space-around;
     background-color: #FBFCFF;
     padding-top: 20px;
+    border-radius: 10px;
 }
 .container .content .item .prdct .itemname{
     font-weight: bolder;
@@ -99,6 +100,6 @@ body{
 }
 .container .content #pic2{
     border: 1px solid #516FD4;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #DAE0F9B2 ;
 }
